@@ -1,0 +1,72 @@
+#first-column {
+    float: left;
+}
+
+.interviews {
+    background: url("../images/fundo-caixa.png");
+    width: 16rem;
+}
+
+.interviews-item {
+    padding: 1rem;
+}
+
+.interviews-item ul {
+    margin-top: 1rem;
+}
+
+.interviews-item ul li {
+    list-style: none;
+    background: white;
+    padding: 1rem;
+}
+
+.interviews-item ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.interviews-item ul li a:hover {
+    background: url("../images/marcador.png") no-repeat left center;
+    padding-left: 2rem;
+    color: #A1A1A1;
+}
+
+.news {
+    background: url("../images/fundo-caixa.png");
+    margin-top: 1rem;
+    width: 16rem;
+}
+
+.news-item {
+    padding: 1rem;
+}
+
+.news-item form {
+    background: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.news-item form div label {
+    font-weight: bold;
+}
+
+.news-item form div:first-child input {
+    width: 12rem;
+}
+
+.news-item form div:last-child input {
+    background: #8a0126;
+    color: white;
+    border: 1px solid #520116;
+    padding: 0.5rem;
+    margin-top: .5rem;
+} 
+
+.news-item form div:last-child input:hover {
+    background: #E10039;
+    color: #7C001C;
+    cursor: pointer;
+} 

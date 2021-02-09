@@ -1,0 +1,167 @@
+#page-landing {
+    min-width: 750px;
+}
+
+#content {
+    width: 75rem;
+    margin: 0 auto;
+}
+
+#second-column {
+    float: left;
+    margin-left: 2.5rem;
+}
+
+#third-column {
+    float: left;
+    margin-left: 2.5rem;
+}
+
+.navbar-item ul li:nth-child(1) a {
+    background: #E10039;
+    color: #7C001C;
+    padding: 1rem 1.9rem;
+}
+
+h2 {
+    background: #294970;
+    color: white;
+    padding: .5rem;
+}
+
+h3 {
+    color: white;
+    background: #8a0126;
+    padding: .2rem;
+}
+
+.last-interview {
+    width: 27rem;
+    background: url("../images/fundo-caixa.png");
+}
+
+.last-interview-item {
+    padding: 1rem;
+}
+
+.last-interview-item div {
+    background: white;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+.last-interview-item img {
+    margin: 1rem 0;
+    width: 24rem;
+}
+
+.last-interview-item p {
+    font-weight: bold;
+}
+
+.last-interview-item a {
+    display: block;
+    color: #8a0126;
+}
+
+.spotlight {
+    width: 27rem;
+    background: url("../images/fundo-caixa.png");
+}
+
+.spotlight-item {
+    padding: 1rem;
+}
+
+.spotlight-item div {
+    background: white;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+.spotlight-item img{
+    margin: 1rem 0;
+    width: 24rem;
+}
+
+.spotlight-item p {
+    font-weight: bold;
+}
+
+.spotlight-item a {
+    display: block;
+    color: #8a0126;
+}
+
+.world {
+    width: 27rem;
+    background: url("../images/fundo-caixa.png");
+    margin-top: 1rem;
+}
+
+.world-items {
+    padding: 1rem;
+}
+
+.world-item {
+    background: white;
+    margin-top: 1rem;
+}
+
+.recent-news {
+    width: 27rem;
+    background: url("../images/fundo-caixa.png");
+    margin-top: 1rem;
+}
+
+.recent-news-items {
+    padding: 1rem;
+}
+
+.recent-news-item {
+    background: white;
+    margin-top: 1rem;
+}
+
+.item {
+    border-bottom: 1px solid rgb(0, 0, 0, .3);
+    padding: 1rem 1rem;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.item div:first-child {
+    float: left;
+}
+
+.item div:nth-child(2) {
+    width: 12rem;
+    float: right;
+}
+
+.item img {
+    width: 10rem;
+}
+
+.item p {
+    font-weight: bold;
+}
+
+.item a {
+    display: block;
+    color: #006DB8;
+    text-decoration: none;
+}
+
+#footer {
+    background: #294970;
+    padding: 2rem;
+}
+
+.footer-item {
+    margin-top: 3rem;
+    width: 75rem;
+    margin: 0 auto;
+}

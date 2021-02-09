@@ -1,0 +1,66 @@
+
+#navbar {
+    background: #294C71;
+    min-width: 780px;
+}
+
+.navbar-top{
+    width: 75rem;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 180px;
+    
+}
+
+.navbar-top img:first-child {
+    margin: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar-top img + img {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.navbar-item {
+    position: absolute;
+    bottom: 15px;
+}
+
+.navbar-item ul {
+    list-style: none;
+}
+
+.navbar-item ul li {
+    display: inline;
+    background: #B20030;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    float: left;
+}
+
+.navbar-item ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.9rem;
+    background:  url("../images/divisor.png") repeat-y right top;
+    font-size: 1.6rem;
+}
+
+.navbar-item ul li a:hover {
+    background: #E10039;
+    color: #7C001C;
+    padding: 1rem 1.9rem;
+}
+
+.navbar-item ul li:last-child a {
+    background-image: none;
+}
+
+.navbar-bottom {
+    background: url("../images/fundo.png") repeat-x left bottom;
+    padding-bottom: 6rem;
+}
