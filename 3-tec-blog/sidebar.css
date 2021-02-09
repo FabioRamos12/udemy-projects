@@ -1,0 +1,28 @@
+#sidebar {
+    width: 16em;
+    float: right;
+}
+
+.sidebar-content {
+    background: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.sidebar-content h3 {
+    background: #DEDADE;
+    color: #48494E;
+    padding: 5px;
+    margin: 0;
+}
+
+.sidebar-content a {
+    display: block;
+
+}
+
+.sidebar-content p,
+.sidebar-content a
+{
+    margin: 5px 0 5px 0;
+}
