@@ -1,0 +1,84 @@
+#topbar {
+    margin-top: 1rem;
+    height: 250px;
+    background: orange;
+    position: relative;
+}
+
+.topbar-left {
+    width: 100%;
+    height: 250px;
+    background: url("../images/topo-imagem-principal.png") no-repeat left top;
+    position: absolute;
+    z-index: 0;
+}
+
+.logo {
+    position: absolute;
+}
+
+.topbar-right {
+    width: 370px;
+    height: 250px;
+    background: url("../images/topo-imagem-lateral.png") no-repeat right top;
+    background-size: 370px 250px;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.topbar-right-reserv {
+    border-top: 1px solid #837B4A;
+    border-bottom: 1px solid #837B4A;
+    margin: 1.5rem 1.5rem 0 0;
+    padding: .8rem 0;
+    position: absolute;
+    right: 0;
+}
+
+
+.topbar-right-reserv h4 {
+    display: inline;
+    color: #837B4A;
+}
+
+.topbar-right-reserv a {
+    background: #837B4A;
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin-left: 3rem;
+}
+
+.topbar-right-menu {
+    position: absolute;
+    margin: 1.5rem;
+    right: 0;
+    top: 45px;
+}
+
+.topbar-right-menu ul {
+    float: left;
+    list-style: none;
+}
+
+.topbar-right-menu li {
+    line-height: 3rem;
+}
+
+
+.topbar-right-menu li a {
+    color: #837B4A;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: .5rem .5rem;
+} 
+
+.topbar-right-menu li a:hover {
+    background: #DBD8B6;
+    padding: .5rem .5rem;
+}
+
+.topbar-right-menu img {
+    float: right;
+}

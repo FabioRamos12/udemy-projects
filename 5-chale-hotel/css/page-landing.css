@@ -1,0 +1,84 @@
+#page-landing {
+    max-width: 1100px;
+    min-width: 700px;
+    margin: 0 auto;
+    background: url("../images/bg.png");
+}
+
+#content {
+    width: 100%;
+    background: url("../images/bg-container.png") repeat-y center top; 
+}
+
+.content-left {
+    width: 50%;
+    float: left;
+}
+
+.content-left-items {
+    padding: 3rem;
+    background: url("../images/bg-area-principal.png") repeat-x left top;
+}
+
+.content-left-items h3 {
+    color: #837B4A;
+    padding-bottom: 1rem;
+}
+
+.content-left-items p {
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+.content-right {
+    width: 50%;
+    float: right;
+}
+
+.content-right-items {
+    padding: 2rem;
+    background: url("../images/bg-area-lateral.png") repeat-x left top;
+}
+
+.content-right-items ul {
+    list-style: none;
+}
+
+.content-right-items a {
+    color: black;
+}
+
+.content-right-items li {
+    font-weight: bold;
+    background: url("../images/bg-linha.gif") repeat-x left bottom;
+    background-size: 40px;
+    position: relative;
+    padding: 1rem;
+}
+
+.content-right-items li:hover {
+    background:#EFEACC;
+}
+
+.content-right-items li img {
+    width: 110px;
+}
+
+.content-right-items li div {
+    margin: 0 1rem;
+    position: absolute;
+    left: 12rem;
+    top: 1rem;
+}
+
+.content-right-items li h4 {
+    color: #4E461C;
+}
+
+.rodape {
+    clear: both;
+    padding: 16px;
+    background: #fff url("../images/bg-rodape.png") repeat-x top;
+    color: #7d7640;
+    font-size: 15px;
+}
