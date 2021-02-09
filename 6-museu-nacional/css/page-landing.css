@@ -1,0 +1,139 @@
+#page-landing {
+    width: 100vw;
+    height: 100%;
+    min-width: 1366px;
+    background: #F4F2EF;
+}
+
+#content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+    left: 10%;
+}
+
+#content section:first-child h2 {
+    color: #21610B;
+    padding-bottom: 10px;
+}
+
+.museum img {
+    margin-right: 30px;
+    width: 71rem;
+    height: 32rem;
+}
+
+.video-map {
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.video {
+    width: 355px;
+}
+
+.video h2 {
+    padding-bottom: 10px;
+}
+
+.map {
+    width: 355px;
+}
+
+.visit {
+    background: #CCC7B6;
+    max-width: 300px;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.visit h2 {
+    color: #795E3D;
+    margin-bottom: 15px;
+}
+
+.visit label {
+    font-weight: bold;
+}
+
+.visit input:last-child {
+    color: white;
+    background: #9B9176;
+    padding: 10px 63.5px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.exposition-history {
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.exposition-history a {
+    text-decoration: none;
+    color: #A96E14;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.exposition {
+    width: 355px;
+}
+
+.exposition ul {
+    padding: 0 40px;
+}
+
+.history {
+    width: 355px;
+}
+
+.history p {
+    font-size: 11px;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+
+.photo-galery {
+    background: #ECE5DF;
+    padding: 25px;
+    max-width: 300px;
+}
+
+.photo-galery h2 {
+    color:  #795E3D;
+}
+
+.photo-galery div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 8px;
+}
+
+.photo {
+    width: 126px;
+    height: 133px;
+    background: url("../images/fundo-foto.png") no-repeat;
+}
+
+.photo img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 11.5px;
+    left: 10px;
+}
+

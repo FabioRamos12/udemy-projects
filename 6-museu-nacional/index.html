@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Museu Nacional</title>
+
+        <script src="./js/html5shiv.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <link rel="stylesheet" type="text/css" href="./css/page-landing.css">
+        <link rel="stylesheet" type="text/css" href="./css/topbar.css">
+        <link rel="stylesheet" type="text/css" href="./css/footer.css">
+
+    </head>
+
+    <body>
+        <div id="page-landing">
+            <header id="topbar">
+                <nav>
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo"></a>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">EXPOSIÇÕES</a></li>
+                        <li><a href="">PESQUISA</a></li>
+                        <li><a href="">ACERVO</a></li>
+                        <li><a href="">VÍDEOS</a></li>
+                        <li><a href="">FOTOS</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <article id="content">
+                <section>
+                    <div class="museum">
+                        <img src="./images/museu.png" alt="museu">
+                    </div>
+
+                    <div class="video-map">
+                        <div class="video">
+                            <h2>VÍDEO: CONHEÇA O MUSEU</h2>
+                            <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                        <div class="map">
+                            <h2>MAPA: ENCONTRE O MUSEU</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.827387891728!2d-43.2260782888855!3d-22.905740234343664!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1605041985798!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="exposition-history">
+                        <div class="exposition">
+                            <h2>EXPOSIÇÕES</h2>
+                            <ul>
+                                <li><a href="">Os assustadores insetos</a></li>
+                                <li><a href="">O crânio de Luíza, a mulher mais antiga do Brasil</a></li>
+                                <li><a href="">Preguiça gigante e tigra-dentes-de-sabre</a></li>
+                                <li><a href="">Plantas do Brasil Central</a></li>
+                                <li><a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                                <li><a href="">Arte Com Dinossauros - Paleoarte</a></li>
+                                <li><a href=""><strong>Veja todos (65)</strong></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="history">
+                                <h2>200 ANOS DE HISTÓRIA</h2>
+                                <p>
+                                    Numa ponta que avançava sobre o mar posteriormente conhecida como Ponta do Calaboouço, entre as prais de Raçaba e Santa Luzia, no centro histórico do Rio do Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                                </p>
+                                <a href=""><strong>Leia mais</strong></a>
+                        </div>
+                    </div>
+                </section>
+
+                <aside>
+                    <div class="depoiment">
+                        <img src="./images/depoimento.png" alt="depoimento">
+                    </div>
+
+                    <div class="visit">
+                        <h2>FAÇA UMA VISITA</h2>
+                            <label for="data">Data</label>
+                            <input type="date" name="data" id="data">
+
+                            <label for="numero">Qtd pessoas</label>
+                            <input type="number" name="numero" id="numero" min="1" max="5" value="1">
+                        
+                            <input type="submit" name="enviar" id="enviar" value="Verificar disponibilidade">
+                    </div>
+
+                    <div class="photo-galery">
+                        <h2>GALERIA DE FOTOS</h2>
+                        <div>
+                            <div class="photo">
+                                <img src="./images/imagem1.jpg" alt="foto">
+                            </div>
+    
+                            <div class="photo">
+                                <img src="./images/imagem2.jpg" alt="foto">
+                            </div>
+    
+                            <div class="photo">
+                                <img src="./images/imagem3.jpg" alt="foto">
+                            </div>
+    
+                            <div class="photo">
+                                <img src="./images/imagem4.jpg" alt="foto">
+                            </div>
+                        </div>         
+                    </div>
+                </aside>
+            </article>
+
+            <footer id="footer">
+                <nav>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">EXPOSIÇÕES</a></li>
+                        <li><a href="">PESQUISA</a></li>
+                        <li><a href="">ACERVO</a></li>
+                        <li><a href="">VÍDEOS</a></li>
+                        <li><a href="">FOTOS</a></li>
+                        <li><a href="">CONTATO</a></li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <span>2019 <a href="./index.html">Museu Nacional</a> - Todos os direitos reservados</span>
+                </div>
+            </footer>
+        </div>     
+    </body>
+</html>

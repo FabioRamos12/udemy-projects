@@ -1,0 +1,38 @@
+#topbar {
+    background: #252217 url("../images/fundo.png");
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+#topbar nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topbar ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+#topbar li {
+    float: left;
+    padding: 10px;
+}
+
+#topbar li a {
+    text-decoration: none;
+    color: #A96E14;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#topbar li a:hover {
+    color: lightgreen;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgreen;
+}
+
+
